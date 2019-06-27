@@ -541,3 +541,6 @@ if flag_figure == 1
     box on;
     legend boxoff;
 end
+%%
+save ('Ha1_wood.mat','NPPwood','ABGBwood','ABGBbiomass',...
+    'NPPbiomass','NPPobs','ABGBobs');
