@@ -1,10 +1,12 @@
-% Reads NACP model output leaf allocation
+% .........................................................................
+% Reads NACP model output leaf allocation and calculates NPPleaf from litter-fall
+% and LAI observations. Please refer to the readme ReadmeLeaf.txt
 % Natalia Restrepo-Coupe
 % nataliacoupe@gmail.com
-% University of Arizona
-% 20190501 Toronto Canada
+% Saleska's lab - University of Arizona
+% 2019 May 01 (spring) Toronto Canada
 % .........................................................................
-flag_unix = 0;        flag_figure_16 = 1;      flag_figure_30 = 1;
+flag_unix = 0;    flag_figure_16 = 1;      flag_figure_30 = 1;
 flag_read = 1;    flag_obs = 1;
 
 %% Point where data is ....................................................
